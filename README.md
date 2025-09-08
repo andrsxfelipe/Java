@@ -278,6 +278,29 @@ public class Main {
     }
 }
 ```
+## System.out
+
+```Java
+System.out.print("Hola ");
+```
+Imprime texto sin salto de línea, lo siguiente seguirá en la misma línea
+
+```java
+System.out.println("Hola");
+```
+Imprime el texto y agrega un salto de línea al final.
+```java
+System.out.printf("Mi nombre es %s y tengo %d años.", nombre, edad);
+```
+Permite formatear la salida usando placeholders (%s, %d, %f, etc.).
+
+%s → cadena (String)
+
+%d → entero (int)
+
+%f → decimal (float o double)
+
+Puedes controlar decimales: %.2f → dos decimales
 
 ---
 
