@@ -218,6 +218,6 @@ public class taller_bucles {
         //tabla_multiplicar();
         //punto8();
         //punto9();
-        punto10();
+        //punto10();
     }
 }
