@@ -203,6 +203,11 @@ public class taller_bucles {
             }
         }
     }
+    public static void bucle(){
+        for (int i=10; i>=0; i--){
+            System.out.println(i);
+        }
+    }
 
 
     public static void main(String[] args){
@@ -219,5 +224,6 @@ public class taller_bucles {
         //punto8();
         //punto9();
         //punto10();
+        bucle();
     }
 }
