@@ -24,7 +24,7 @@ public class ejercicio_arbol_navida {
         Scanner sc = new Scanner(System.in);
         System.out.print("Ingrese el tamaño de su arbol: ");
         int num = sc.nextInt();
-        sc.nextLine();+
+        sc.nextLine();
         for (int i=0;i<num;i++){
             System.out.print(" ".repeat(num-(i+1)));
             System.out.print("*".repeat((2*(i+1))-1));
