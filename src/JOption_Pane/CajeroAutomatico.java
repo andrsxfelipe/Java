@@ -1,3 +1,5 @@
+package JOption_Pane;
+
 import javax.swing.JOptionPane; // Importamos la clase JOptionPane para usar ventanas emergentes
 
 public class CajeroAutomatico {
@@ -98,7 +100,7 @@ public class CajeroAutomatico {
                     // Si elige "Sí", terminamos el bucle
                     if (confirmar == JOptionPane.YES_OPTION) {
                         salir = true; // Cambiamos la bandera para salir del while
-                        JOptionPane.showMessageDialog(null, "Gracias por usar el cajero automático.");
+                        JOptionPane.showMessageDialog(null, "Gracias por usar el ejercicios_poo.cajero automático.");
                     }
                     break;
 

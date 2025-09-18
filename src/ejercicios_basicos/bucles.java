@@ -1,8 +1,10 @@
+package ejercicios_basicos;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class ejercicio_arbol_navida {
+public class bucles {
     public static void bucle_for(){
         Scanner sc = new Scanner(System.in);
         System.out.print("Ingrese el tamaño de su arbol");

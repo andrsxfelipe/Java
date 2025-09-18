@@ -1,3 +1,5 @@
+package ejercicios_basicos;
+
 public class Variables_Actividad1 {
     public static void main(String[] args){
     String nombre = "Andres";

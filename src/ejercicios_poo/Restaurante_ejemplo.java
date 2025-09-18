@@ -1,3 +1,5 @@
+package ejercicios_poo;
+
 import java.util.ArrayList;
 
 class Plate {
@@ -33,7 +35,7 @@ class Table {
 
     public void pedirCuenta() {
         double total = 0;
-        System.out.println("\n--- Cuenta de la mesa ---");
+        System.out.println("\n--- ejercicios_poo.Cuenta de la mesa ---");
         for (Plate p : pedidos) {
             System.out.println(p);
             total += p.getPrecio();

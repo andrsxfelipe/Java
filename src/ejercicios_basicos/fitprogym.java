@@ -1,3 +1,5 @@
+package ejercicios_basicos;
+
 import java.util.Scanner;
 public class fitprogym {
     public static void main(String[] args){

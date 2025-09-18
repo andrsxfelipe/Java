@@ -1,3 +1,5 @@
+package ejercicios_poo;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -29,7 +31,7 @@ class Mesa{
 
     public void agregarPedido(Plato p){
         pedidos.add(p);
-        System.out.println("Plato agregado a la mesa: "+p);
+        System.out.println("ejercicios_poo.Plato agregado a la mesa: "+p);
     }
 
     public void mostrarCuenta(){

@@ -1,3 +1,5 @@
+package ejercicios_poo;
+
 import java.util.Scanner;
 
 class Inscrito{

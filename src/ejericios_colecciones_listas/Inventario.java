@@ -1,3 +1,5 @@
+package ejericios_colecciones_listas;
+
 import javax.swing.*;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -9,9 +11,9 @@ public class Inventario {
         HashMap<String, Integer> inventario = new HashMap<>();
 
         boolean salir = false;
-        JOptionPane.showMessageDialog(null,"Bienvenido al Sistema de Gestión de Inventario.");
+        JOptionPane.showMessageDialog(null,"Bienvenido al Sistema de Gestión de colecciones_listas.Inventario.");
         while(!salir){
-            String[] opciones = {"Agregar Producto", "Listar Inventario","Comprar Producto","Estadísticas","Buscar Producto","Salir"};
+            String[] opciones = {"Agregar Producto", "Listar colecciones_listas.Inventario","Comprar Producto","Estadísticas","Buscar Producto","Salir"};
             int opcion = JOptionPane.showOptionDialog(
                     null,
                     "Seleccione una opción",

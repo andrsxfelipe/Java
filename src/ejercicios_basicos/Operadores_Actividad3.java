@@ -1,4 +1,4 @@
-/*
+package ejercicios_basicos;/*
 Pide al usuario su edad e imprime:
     true si es mayor o igual a 18.
     false si es menor.

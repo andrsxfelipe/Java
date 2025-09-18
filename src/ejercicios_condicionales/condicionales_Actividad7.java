@@ -1,4 +1,4 @@
-/*
+package ejercicios_condicionales;/*
 Crea un programa que pida un número del 1 al 7 y muestre el día de la semana:
     1 → Lunes
     2 → Martes

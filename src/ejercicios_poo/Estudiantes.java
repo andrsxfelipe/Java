@@ -1,3 +1,5 @@
+package ejercicios_poo;
+
 import java.util.Scanner;
 
 class Estudiante{
@@ -12,7 +14,7 @@ class Estudiante{
     }
 
     public void mostrarInfo(){
-        System.out.printf("Estudiante: %s, edad: %d, nota: %.2f\n",nombre, edad, nota);
+        System.out.printf("ejercicios_poo.Estudiante: %s, edad: %d, nota: %.2f\n",nombre, edad, nota);
     }
     public void cambiarNota(double nuevaNota){
         nota = nuevaNota;
@@ -53,9 +55,9 @@ public class Estudiantes {
                 case 3:
                     boolean aprobo = estudiante1.aprobo();
                     if (aprobo){
-                        System.out.println("Estudiante aprobó.");
+                        System.out.println("ejercicios_poo.Estudiante aprobó.");
                     } else {
-                        System.out.println("Estudiante reprobó.");
+                        System.out.println("ejercicios_poo.Estudiante reprobó.");
                     }
                     break;
                 case 4:

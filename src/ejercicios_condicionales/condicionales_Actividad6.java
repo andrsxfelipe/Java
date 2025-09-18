@@ -1,4 +1,4 @@
-/*
+package ejercicios_condicionales;/*
 Pide al usuario su edad y muestra:
     "Niño" si tiene menos de 12.
     "Adolescente" si tiene entre 12 y 17.

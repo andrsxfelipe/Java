@@ -1,3 +1,5 @@
+package ejercicios_basicos;
+
 import java.util.ArrayList;
 
 public class dia2 {

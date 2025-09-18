@@ -1,4 +1,4 @@
-/*
+package ejercicios_basicos;/*
 Pide dos números enteros y verifica con operadores lógicos si:
     Ambos son positivos (&&).
     Al menos uno es mayor que 100 (||).

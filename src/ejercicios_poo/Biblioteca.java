@@ -1,4 +1,5 @@
-import java.util.Arrays;
+package ejercicios_poo;
+
 import java.util.Scanner;
 
 class Libro{
@@ -16,17 +17,17 @@ class Libro{
     public void prestar(String libro_prestar){
         if ((libro_prestar.equals(titulo)) && (!prestado)){
             prestado = true;
-            System.out.println("Libro "+titulo+" prestado.");
+            System.out.println("ejercicios_poo.Libro "+titulo+" prestado.");
         }
     }
     public void devolver(String devolverLibro){
         if ((devolverLibro.equals(titulo)) && (prestado)) {
             prestado = false;
-            System.out.println("Libro " + titulo + " devuelvo. Vuelve a estar disponible.");
+            System.out.println("ejercicios_poo.Libro " + titulo + " devuelvo. Vuelve a estar disponible.");
         }
     }
     public void mostrarInfo(){
-        System.out.printf("- Libro: %s, autor: %s, año de publicación: %s, disponible: %s\n", titulo, autor, anioPublicado, prestado ? "No":"Sí");
+        System.out.printf("- ejercicios_poo.Libro: %s, autor: %s, año de publicación: %s, disponible: %s\n", titulo, autor, anioPublicado, prestado ? "No":"Sí");
     }
 }
 

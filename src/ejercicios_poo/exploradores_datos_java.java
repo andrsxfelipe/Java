@@ -1,7 +1,7 @@
-import java.lang.reflect.Array;
+package ejercicios_poo;
+
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 
 class CofreOrdenado{
     private int[] cofre;
@@ -81,7 +81,7 @@ class Explorador{
                 explorador = clave;
             }
         }
-        System.out.println("Explorador con mas oro: "+explorador);
+        System.out.println("ejercicios_poo.Explorador con mas oro: "+explorador);
     }
 }
 

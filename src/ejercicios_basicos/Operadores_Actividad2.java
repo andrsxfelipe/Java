@@ -1,3 +1,5 @@
+package ejercicios_basicos;
+
 /*
 Crea un programa que:
 - Declare dos números enteros (a y b).

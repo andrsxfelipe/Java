@@ -1,4 +1,4 @@
-/*Haz un programa que reciba un número entero e imprima:
+package ejercicios_condicionales;/*Haz un programa que reciba un número entero e imprima:
         "Es positivo" si el número es mayor que 0.
         "Es negativo" si es menor que 0.
         "Es cero" si es exactamente 0.
